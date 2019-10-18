@@ -76,7 +76,8 @@ input[type="text"]:focus::-webkit-input-placeholder {
   text-indent: 500px; 
   transition: text-indent 0.5s ease;
 } */
-input[type="text"]:focus::-webkit-input-placeholder {
+input[type="text"]:focus::-webkit-input-placeholder,
+input[type="text"]:focus::-moz-placeholder {
   text-indent: 500px; 
   transition: text-indent 0.5s ease;
 } 
