@@ -17,14 +17,14 @@
         <p class="ba-header__text">Come and join our cool and amazing community, fill in your details
         to get started. Already have an account? <a href="#" class="ba-header__link">Log in.</a></p>
       </div>
-      <div class="ba-line-one">
-        <input type="text" class="ba-line-one__item" placeholder="First name">
-        <input type="text" class="ba-line-one__item" placeholder="Last name">
+      <div class="ba-line-name">
+        <input type="text" class="ba-line-name__item" placeholder="First name" pattern="[A-Za-z]{5,}" required>
+        <input type="text" class="ba-line-name__item" placeholder="Last name" pattern="[A-Za-z]{7,}" max="10" required>
       </div>
-      <div class="ba-line-two">
-        <input type="email" class="ba-line-two__item" placeholder="Email adress" required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$">
-        <input type="password" class="ba-line-two__item" placeholder="Password" required>
-        <button class="ba-line-two__btn">Sign up for free</button>
+      <div class="ba-line-social">
+        <input type="email" class="ba-line-social__item" placeholder="Email adress" required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$">
+        <input type="password" class="ba-line-social__item" placeholder="Password" required>
+        <button class="ba-line-social__btn">Sign up for free</button>
       </div>
       <div class="ba-footer">
         <p class="ba-footer__text">By clicking on “Sign up for free”, you agree to <a href="#" class="ba-footer__link">the Terms of Service</a> and <a href="#" class="ba-footer__link">the Privacy Policy</a></p>
