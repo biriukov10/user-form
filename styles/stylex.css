@@ -69,18 +69,12 @@ body {
 .ba-line-name__item::placeholder {
   color: #7a7b7f;
 }
-
-/* input[type="email"]:focus::-webkit-input-placeholder,
+input[type="email"]:focus::-webkit-input-placeholder,
 input[type="password"]:focus::-webkit-input-placeholder, 
 input[type="text"]:focus::-webkit-input-placeholder {
   text-indent: 500px; 
   transition: text-indent 0.5s ease;
-} */
-input[type="text"]:focus::-webkit-input-placeholder,
-input[type="text"]:focus::-moz-placeholder {
-  text-indent: 500px; 
-  transition: text-indent 0.5s ease;
-} 
+}
 .ba-line-social {
   display: flex;
   flex-direction: column;
