@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="styles/stylex.css">
+  <title>UserForm</title>
+</head>
+<body>
+  <form action="#" class="ba-form" name="userForm" autocomplete="on">
+    <fieldset class="ba-wrapper">
+      <div class="ba-header">
+        <h2 class="ba-header__title">
+          Create your free account
+        </h2>
+        <p class="ba-header__text">Come and join our cool and amazing community, fill in your details
+        to get started. Already have an account? <a href="#" class="ba-header__link">Log in.</a></p>
+      </div>
+      <div class="ba-line-one">
+        <input type="text" class="ba-line-one__item" placeholder="First name">
+        <input type="text" class="ba-line-one__item" placeholder="Last name">
+      </div>
+      <div class="ba-line-two">
+        <input type="email" class="ba-line-two__item" placeholder="Email adress" required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$">
+        <input type="password" class="ba-line-two__item" placeholder="Password" required>
+        <button class="ba-line-two__btn">Sign up for free</button>
+      </div>
+      <div class="ba-footer">
+        <p class="ba-footer__text">By clicking on “Sign up for free”, you agree to <a href="#" class="ba-footer__link">the Terms of Service</a> and <a href="#" class="ba-footer__link">the Privacy Policy</a></p>
+      </div>
+    </fieldset>
+  </form>
+</body>
+</html>
